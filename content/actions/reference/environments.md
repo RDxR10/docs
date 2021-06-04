@@ -50,7 +50,7 @@ Secrets stored in an environment are only available to workflow jobs that refere
 
 {% note %}
 
-**Note:** Workflows that run on self-hosted runners are not run in an isolated container, even if they use environments. Environment secrets should be treated with the same level as security as repository and organization secrets. For more information, see "[Security hardening for GitHub Actions](/actions/learn-github-actions/security-hardening-for-github-actions#hardening-for-self-hosted-runners)."
+**Note:** Workflows that run on self-hosted runners are not run in an isolated container, even if they use environments. Environment secrets should be treated with the same level of security as repository and organization secrets. For more information, see "[Security hardening for GitHub Actions](/actions/learn-github-actions/security-hardening-for-github-actions#hardening-for-self-hosted-runners)."
 
 {% endnote %}
 
